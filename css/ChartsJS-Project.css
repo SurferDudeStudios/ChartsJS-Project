@@ -1,0 +1,471 @@
+/* chartsjs application CSS */
+
+.best-fit {
+  margin-bottom: 0 !important;
+}
+.best-fit p {
+  opacity: 0;
+  color: rgba(0, 150, 202, 1);
+}
+.best-fit p.growth-label {
+  color: #000000 !important;
+}
+/* Doughnuts */
+.chart-canvas {
+  position: relative;
+  max-height: 120px;
+  margin: 0 auto;
+}
+.chart-canvas canvas{
+  max-width: 120px;
+  margin: 0 auto;
+}
+.chart-canvas-parent-container {
+  border-bottom: 5px solid #333333;
+  overflow: hidden;
+}
+.chart-disclaimer {
+  width: 100%;
+  clear: both;
+}
+.chart-group {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.chart-guide {
+  margin: 1em;
+}
+.chart-guide img {
+  margin-bottom: 1em;
+  max-width: 190px;
+}
+/* Chart Caveat */
+#chart-caveat p {
+  line-height: 1.5em;
+  font-style: italic;
+}
+/* Key items */
+.key-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.key-list ul, .key-list p {
+  display: inline-flex;
+  font-weight: bold;
+  padding-right: 1em;
+}
+.key-list li {
+  padding: 0;
+  margin: 0 1em 0 0;
+  line-height: 1.5em;
+}
+.key-list li:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 0.5em;
+  vertical-align: text-bottom;
+}
+li.key-item-element01:before {
+  background-color: rgba(255, 0, 0, 1);
+}
+li.key-item-element02:before {
+  background-color: rgba(0, 255, 0, 1);
+}
+li.key-item-element03:before {
+  background-color: rgba(0, 0, 255, 1);
+}
+.risk-key {
+  font-weight: bold !important;
+}
+/* Tab container for the charts */
+.tab-content {
+  padding-bottom: 2em;
+  overflow: hidden;
+}
+.tab-content > .tab-pane {
+  display: none;
+  max-width: 1200px;
+}
+.tab-content > .active {
+  display: block;
+}
+.tab-content, .tablist-menu {
+  font-family: ss_rg, Arial, sans-serif;
+  font-size: 16px;
+}
+.tab-content p {
+  margin: 0 0 0.5em;
+}
+.tab-pane {
+  overflow: hidden;
+}
+/* Profile select for tablet and mobile */
+.chartsjs-application-select {
+  font-size: 1em;
+  font-family: ss_rg, Arial, sans-serif;
+  height: 36px;
+  line-height: 1.5em;
+  width: 100% !important;
+  background-color: #c9c9ca;
+  border: 1px solid #333333;
+}
+/* Desktop */
+@media screen and (min-width:992px) {
+  .band {
+    float: right;
+    margin: 0;
+    padding: 0 1px 0 1px;
+    color: rgba(0, 150, 202, 1);
+    min-width: 10% !important;
+    min-height: 0;
+  }
+  .band p {
+    border-top: 6px solid rgba(0, 150, 202, 1);
+    text-align: center;
+    padding-top: 0.5em;
+  }
+  .best-fit {
+    position: relative;
+	height: 70px;
+  }
+  .best-fit p.growth-label {
+    position: relative;
+	top: -90px;
+	line-height: 1em;
+  }
+  .best-fit p.best-fit-label {
+    position: absolute !important;
+	margin-top: -72px !important;
+  }
+  .canvas-label {
+    max-width: 120px;
+	margin: 0 auto !important;
+    margin-top: 1em !important;
+    opacity: 0;
+    text-align: center;
+    line-height: 1em;
+    -webkit-animation: fadeIn 1.5s forwards;
+    animation: fadeIn 1.5s forwards;
+  }
+  .chart-canvas {
+    float: right;
+	width: 14.285%;
+	overflow: visible;
+  }
+  .chart-canvas-container {
+    min-height: 180px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: visible;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0) calc(120px - 3px), rgba(153, 153, 153, 1) calc(120px - 1px) calc(120px + 1px), rgba(0, 0, 0, 0) calc(120px + 3px));
+	background-repeat: no-repeat;
+  }
+  .chart-canvas-parent-container {
+    z-index: -100;
+    width: 100%;
+  }
+  .chart-guide {
+    max-width: 320px;
+  }
+  .key-list {
+    padding: 10px 20px;
+  }
+  .key-list ul, .key-list p {
+    float: right;
+    text-align: right;
+  }
+  .margin-aegon {
+    margin: 0 1% !important;
+  }
+  /* Desktop top menu */
+  .nav-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .nav-list:after {
+    display: table;
+  }
+  .nav-list li {
+    padding: 0;
+  }
+  .nav-list li:first-child a {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+  .nav-list li:last-child a {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+  ul.nav-list li a {
+    text-decoration: none;
+    float: left;
+    font-size: 0.9em;
+    background: #333333;
+    padding: 6px 20px;
+    color: #ffffff;
+    margin: 0 1px;
+  }
+  ul.nav-list li.active a {
+    background-color: #f3f4f3;
+    border-color: #c9c9ca;
+    border-bottom-color: transparent;
+    color: #333333;
+  }
+  .profile-key-container {
+    position: relative;
+    width: 100%;
+  }
+  /* Desktop chartsjs application key styling */
+  .risk-lowest {
+    float: left;
+  }
+  .risk-highest {
+    float: right;
+  }
+  .zin-lg-10 {
+    z-index: 10;
+  }
+  .zin-lg-9 {
+    z-index: 9;
+  }
+  .zin-lg-8 {
+    z-index: 8;
+  }
+  .zin-lg-7 {
+    z-index: 7;
+  }
+  .zin-lg-6 {
+    z-index: 6;
+  }
+  .zin-lg-5 {
+    z-index: 5;
+  }
+  .zin-lg-4 {
+    z-index: 4;
+  }
+  .zin-lg-3 {
+    z-index: 3;
+  }
+  .zin-lg-2 {
+    z-index: 2;
+  }
+  .zin-lg-1 {
+    z-index: 1;
+  }
+}
+/* Tablet and mnobile */
+@media screen and (max-width:991px) {
+  .band {
+    max-width: 320px;
+    border-left: 6px solid rgba(0, 150, 202, 1);
+    padding-left: 1em;
+    color: rgba(0, 150, 202, 1);
+    margin-bottom: 4px;
+    min-width: 0;
+  }
+  .best-fit {
+    width: 100%;
+    display: inline;
+    clear: both;
+    margin-bottom: 0.5em !important;
+	background: none;
+	background-color: transparent;
+	position: relative;
+	z-index: -100;
+  }
+  .best-fit p {
+	margin-left: 1.4em;
+    display: inline;
+	background: none;
+	background-color: transparent;
+	position: relative;
+	z-index: -100;
+  }
+  .best-fit p.growth-label {
+	margin-left: 46% !important;
+	float:none!important;
+  }
+  .canvas-label {
+    position: relative;
+    top: -74px;
+    left: 140px;
+    width: 200px;
+    margin: 0 !important;
+    opacity: 0;
+    -webkit-animation: fadeIn 1.5s forwards;
+    animation: fadeIn 1.5s forwards;
+  }
+  .chart-canvas {
+    right: 0px;
+  }
+  .chart-canvas-container {
+    max-width: 120px;
+    margin: 0 auto !important;
+    margin-bottom: 1.5em !important;
+    overflow: visible !important;
+  }
+  .chart-canvas-parent-container {
+    position: relative;
+    border-top: 5px solid #024881;
+    overflow: visible !important;
+  }
+  .chart-group {
+	position: relative;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) calc(50% - 3px), rgba(153, 153, 153, 1) calc(50% - 1px) calc(50% + 1px), rgba(0, 0, 0, 0) calc(50% + 3px));
+	overflow: visible !important;
+  }
+  .chart-guide img {
+    margin-top: 1em;
+  }
+  .key-list {
+    min-height: 2em;
+    margin-bottom: 1em;
+  }
+  .key-list ul, .key-list p {
+    float: left;
+    text-align: left;
+  }
+  .profile-key-container {
+    position: absolute;
+    top: 1.5em;
+    margin-right: 1em;
+    padding-left: 4.5em;
+    overflow: hidden;
+    left: 50%;
+  }
+  .risk-key {
+    text-align: right;
+  }
+  /* Mobile specific Tab styling */
+  .tablist-menu {
+    width: 100%;
+  }
+  .tablist-container {
+    display: none;
+    visibility: hidden;
+  }
+  #chartsjs-application .tab-pane.active {
+    opacity: 0;
+    -webkit-animation: fadeIn 1.5s forwards;
+    animation: fadeIn 1.5s forwards
+  }
+}
+/* Animations */
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+/* Font Styles */
+@media screen {
+  /* Sentico sans light*/
+  @font-face {
+    font-family: 'ss_lt';
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Light.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Light.eot?#iefix') format('embedded-opentype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Light.woff') format('woff'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Light.ttf') format('truetype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Light.svg#SenticoSansDT-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Sentico sans reg*/
+  @font-face {
+    font-family: 'ss_rg';
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Regular.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Regular.eot?#iefix') format('embedded-opentype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Regular.woff') format('woff'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Regular.ttf') format('truetype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Regular.svg#SenticoSansDT-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Sentico sans med */
+  @font-face {
+    font-family: 'ss_md';
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Medium.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Medium.eot?#iefix') format('embedded-opentype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Medium.woff') format('woff'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Medium.ttf') format('truetype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Medium.svg#SenticoSansDT-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Sentico sans bold*/
+  @font-face {
+    font-family: 'ss_bd';
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Bold.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Bold.eot?#iefix') format('embedded-opentype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Bold.woff') format('woff'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Bold.ttf') format('truetype'), url('https://s3-eu-west-1.amazonaws.com/chs-fonts/aegon/SenticoSansDT-Bold.svg#SenticoSansDT-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+/* Loading animation */
+.loadingContainer {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background-color: #F2F2F2;
+  margin-bottom: 10px;
+}
+.spinnerImage {
+  position: relative;
+}
+.loadingContainer::before {
+  content: '';
+  min-width: 320px;
+  height: 35px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.loadingContainer::after {
+  content: '';
+  min-width: 90px;
+  border-radius: 6px;
+  height: 35px;
+  background-color: #c0d1e8;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  margin: 2px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #ccc transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinnerImage {
+  position: relative;
+}

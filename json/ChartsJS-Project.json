@@ -1,0 +1,480 @@
+{
+  "chartKey": [{
+    "Element01": "rgba(255, 0, 0, 1)",
+    "Element02": "rgba(0, 255, 0, 1)",
+    "Element03": "rgba(0, 0, 255, 1)"
+  }],
+  "profiles": [{
+      "profile_name": "Profile 01",
+      "profile_id": "profile-default",
+      "profile_logo": "",
+      "profile_caveat": "Lorem ipsum",
+      "profile_key_height": 900,
+      "profile_bands": [{
+        "1": "Above average",
+        "2": "Average",
+        "3": "Below average",
+        "4": "Low"
+      }],
+      "profile_band_description": "Profile rating",
+      "canvas_labels": false,
+      "profile_charts": [{
+        "profile_chart_name": "Chart07",
+        "profile_chart_band": "Above average",
+        "profile_chart_position": 0,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 100,
+          "chart_Element02": 0,
+          "chart_Element03": 0
+        }]
+      }, {
+        "profile_chart_name": "Chart06",
+        "profile_chart_band": "Above average",
+        "profile_chart_position": 10,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 89.2827,
+          "chart_Element02": 7.9567,
+          "chart_Element03": 2.7606
+        }]
+      }, {
+        "profile_chart_name": "Chart05",
+        "profile_chart_band": "Above average",
+        "profile_chart_position": 20,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 78.4895,
+          "chart_Element02": 15.0365,
+          "chart_Element03": 6.474
+        }]
+      }, {
+        "profile_chart_name": "Chart04",
+        "profile_chart_band": "Average",
+        "profile_chart_position": 30,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 64.22,
+          "chart_Element02": 25.5511,
+          "chart_Element03": 10.2289
+        }]
+      }, {
+        "profile_chart_name": "Chart03",
+        "profile_chart_band": "Below average",
+        "profile_chart_position": 40,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 49.2787,
+          "chart_Element02": 35.7414,
+          "chart_Element03": 14.9799
+        }]
+      }, {
+        "profile_chart_name": "Chart02",
+        "profile_chart_band": "Below average",
+        "profile_chart_position": 50,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 33.9618,
+          "chart_Element02": 46.2959,
+          "chart_Element03": 19.7423
+        }]
+      }, {
+        "profile_chart_name": "Chart01",
+        "profile_chart_band": "Low",
+        "profile_chart_position": 60,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 14.0797,
+          "chart_Element02": 58.5199,
+          "chart_Element03": 27.4004
+        }]
+      }]
+    },
+    {
+      "profile_name": "Profile 02",
+      "profile_id": "profile-02",
+      "profile_logo": "",
+      "profile_caveat": "Lorem ipsum",
+      "profile_key_height": 1036,
+      "profile_bands": [{
+        "1": 10,
+        "2": 9,
+        "3": 8,
+        "4": 7,
+        "5": 6,
+        "6": 5,
+        "7": 4,
+        "8": 3,
+        "9": 2,
+        "10": 1
+      }],
+      "profile_band_description": "Profile band",
+      "canvas_labels": false,
+      "profile_charts": [{
+        "profile_chart_name": "Chart07",
+        "profile_chart_band": 9,
+        "profile_chart_position": 94,
+        "profile_chart_position_horizontal": 7.85,
+        "profile_chart_composition": [{
+          "chart_Element01": 100,
+          "chart_Element02": 0,
+          "chart_Element03": 0
+        }]
+      }, {
+        "profile_chart_name": "Chart06",
+        "profile_chart_band": 8,
+        "profile_chart_position": 76,
+        "profile_chart_position_horizontal": 3.45,
+        "profile_chart_composition": [{
+          "chart_Element01": 89.2827,
+          "chart_Element02": 7.9567,
+          "chart_Element03": 2.7606
+        }]
+      }, {
+        "profile_chart_name": "Chart05",
+        "profile_chart_band": 7,
+        "profile_chart_position": 60,
+        "profile_chart_position_horizontal": -0.25,
+        "profile_chart_composition": [{
+          "chart_Element01": 78.4895,
+          "chart_Element02": 15.0365,
+          "chart_Element03": 6.474
+        }]
+      }, {
+        "profile_chart_name": "Chart04",
+        "profile_chart_band": 6,
+        "profile_chart_position": 44,
+        "profile_chart_position_horizontal": -4.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 64.22,
+          "chart_Element02": 25.5511,
+          "chart_Element03": 10.2289
+        }]
+      }, {
+        "profile_chart_name": "Chart03",
+        "profile_chart_band": 4,
+        "profile_chart_position": 134,
+        "profile_chart_position_horizontal": 1,
+        "profile_chart_composition": [{
+          "chart_Element01": 49.2787,
+          "chart_Element02": 35.7414,
+          "chart_Element03": 14.9799
+        }]
+      }, {
+        "profile_chart_name": "Chart02",
+        "profile_chart_band": 3,
+        "profile_chart_position": 118,
+        "profile_chart_position_horizontal": -4,
+        "profile_chart_composition": [{
+          "chart_Element01": 33.9618,
+          "chart_Element02": 46.2959,
+          "chart_Element03": 19.7423
+        }]
+      }, {
+        "profile_chart_name": "Chart01",
+        "profile_chart_band": 2,
+        "profile_chart_position": 102,
+        "profile_chart_position_horizontal": -8,
+        "profile_chart_composition": [{
+          "chart_Element01": 14.0797,
+          "chart_Element02": 58.5199,
+          "chart_Element03": 27.4004
+        }]
+      }]
+    },
+    {
+      "profile_name": "Profile 03",
+      "profile_id": "profile-03",
+      "profile_logo": "",
+      "profile_caveat": "Lorem ipsum",
+      "profile_key_height": 1036,
+      "profile_bands": [{
+        "1": 10,
+        "2": 9,
+        "3": 8,
+        "4": 7,
+        "5": 6,
+        "6": 5,
+        "7": 4,
+        "8": 3,
+        "9": 2,
+        "10": 1
+      }],
+      "profile_band_description": "Profile rating",
+      "canvas_labels": false,
+      "profile_charts": [{
+        "profile_chart_name": "Chart07",
+        "profile_chart_band": 8,
+        "profile_chart_position": 198,
+        "profile_chart_position_horizontal": 18.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 100,
+          "chart_Element02": 0,
+          "chart_Element03": 0
+        }]
+      }, {
+        "profile_chart_name": "Chart06",
+        "profile_chart_band": 7,
+        "profile_chart_position": 180,
+        "profile_chart_position_horizontal": 14,
+        "profile_chart_composition": [{
+          "chart_Element01": 89.2827,
+          "chart_Element02": 7.9567,
+          "chart_Element03": 2.7606
+        }]
+      }, {
+        "profile_chart_name": "Chart05",
+        "profile_chart_band": 6,
+        "profile_chart_position": 164,
+        "profile_chart_position_horizontal": 9.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 78.4895,
+          "chart_Element02": 15.0365,
+          "chart_Element03": 6.474
+        }]
+      }, {
+        "profile_chart_name": "Chart04",
+        "profile_chart_band": 5,
+        "profile_chart_position": 148,
+        "profile_chart_position_horizontal": 5.255,
+        "profile_chart_composition": [{
+          "chart_Element01": 64.22,
+          "chart_Element02": 25.5511,
+          "chart_Element03": 10.2289
+        }]
+      }, {
+        "profile_chart_name": "Chart03",
+        "profile_chart_band": 4,
+        "profile_chart_position": 134,
+        "profile_chart_position_horizontal": 0.75,
+        "profile_chart_composition": [{
+          "chart_Element01": 49.2787,
+          "chart_Element02": 35.7414,
+          "chart_Element03": 14.9799
+        }]
+      }, {
+        "profile_chart_name": "Chart02",
+        "profile_chart_band": 3,
+        "profile_chart_position": 116,
+        "profile_chart_position_horizontal": -3.75,
+        "profile_chart_composition": [{
+          "chart_Element01": 33.9618,
+          "chart_Element02": 46.2959,
+          "chart_Element03": 19.7423
+        }]
+      }, {
+        "profile_chart_name": "Chart01",
+        "profile_chart_band": 3,
+        "profile_chart_position": -4,
+        "profile_chart_position_horizontal": -17.75,
+        "profile_chart_composition": [{
+          "chart_Element01": 14.0797,
+          "chart_Element02": 58.5199,
+          "chart_Element03": 27.4004
+        }]
+      }]
+    },
+	{
+      "profile_name": "Profile 04",
+      "profile_id": "profile-04",
+      "profile_logo": "",
+      "profile_caveat": "Lorem ipsum",
+      "profile_key_height": 928,
+      "profile_bands": [{
+        "1": [{
+          "bottom": 87,
+          "top": 100
+        }],
+        "2": [{
+          "bottom": 75,
+          "top": 86
+        }],
+        "3": [{
+          "bottom": 66,
+          "top": 74
+        }],
+        "4": [{
+          "bottom": 57,
+          "top": 65
+        }],
+        "5": [{
+          "bottom": 48,
+          "top": 56
+        }],
+        "6": [{
+          "bottom": 37,
+          "top": 47
+        }],
+        "7": [{
+          "bottom": 0,
+          "top": 36
+        }]
+      }],
+      "profile_band_description": "Chart05 assets",
+      "canvas_labels": true,
+      "profile_charts": [{
+        "profile_chart_name": "Chart07",
+        "profile_chart_band": 100,
+        "profile_chart_position": 0,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 100,
+          "chart_Element02": 0,
+          "chart_Element03": 0
+        }]
+      }, {
+        "profile_chart_name": "Chart06",
+        "profile_chart_band": 89,
+        "profile_chart_position": 16,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 89.2827,
+          "chart_Element02": 7.9567,
+          "chart_Element03": 2.7606
+        }]
+      }, {
+        "profile_chart_name": "Chart05",
+        "profile_chart_band": 78,
+        "profile_chart_position": 30,
+        "profile_chart_position_horizontal":0,
+        "profile_chart_composition": [{
+          "chart_Element01": 78.4895,
+          "chart_Element02": 15.0365,
+          "chart_Element03": 6.474
+        }]
+      }, {
+        "profile_chart_name": "Chart04",
+        "profile_chart_band": 64,
+        "profile_chart_position": 44,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 64.22,
+          "chart_Element02": 25.5511,
+          "chart_Element03": 10.2289
+        }]
+      }, {
+        "profile_chart_name": "Chart03",
+        "profile_chart_band": 49,
+        "profile_chart_position": 60,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 49.2787,
+          "chart_Element02": 35.7414,
+          "chart_Element03": 14.9799
+        }]
+      }, {
+        "profile_chart_name": "Chart02",
+        "profile_chart_band": 34,
+        "profile_chart_position": 72,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 33.9618,
+          "chart_Element02": 46.2959,
+          "chart_Element03": 19.7423
+        }]
+      }, {
+        "profile_chart_name": "Chart01",
+        "profile_chart_band": 14,
+        "profile_chart_position": 88,
+        "profile_chart_position_horizontal": 0,
+        "profile_chart_composition": [{
+          "chart_Element01": 14.0797,
+          "chart_Element02": 58.5199,
+          "chart_Element03": 27.4004
+        }]
+      }]
+    },
+    {
+      "profile_name": "Profile 05",
+      "profile_id": "profile-05",
+      "profile_logo": "",
+      "profile_caveat": "Lorem ipsum",
+      "profile_key_height": 1036,
+      "profile_bands": [{
+        "1": 10,
+        "2": 9,
+        "3": 8,
+        "4": 7,
+        "5": 6,
+        "6": 5,
+        "7": 4,
+        "8": 3,
+        "9": 2,
+        "10": 1
+      }],
+      "profile_band_description": "Profile rating",
+      "canvas_labels": false,
+      "profile_charts": [{
+        "profile_chart_name": "Chart07",
+        "profile_chart_band": 10,
+        "profile_chart_position": -10,
+        "profile_chart_position_horizontal": -1.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 100,
+          "chart_Element02": 0,
+          "chart_Element03": 0
+        }]
+      }, {
+        "profile_chart_name": "Chart06",
+        "profile_chart_band": 9,
+        "profile_chart_position": -26,
+        "profile_chart_position_horizontal": -6,
+        "profile_chart_composition": [{
+          "chart_Element01": 89.2827,
+          "chart_Element02": 7.9567,
+          "chart_Element03": 2.7606
+        }]
+      }, {
+        "profile_chart_name": "Chart05",
+        "profile_chart_band": 8,
+        "profile_chart_position": -40,
+        "profile_chart_position_horizontal": -10.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 78.4895,
+          "chart_Element02": 15.0365,
+          "chart_Element03": 6.474
+        }]
+      }, {
+        "profile_chart_name": "Chart04",
+		"profile_chart_position_horizontal": -4.75,
+        "profile_chart_band": 6,
+        "profile_chart_position": 46,
+        "profile_chart_composition": [{
+          "chart_Element01": 64.22,
+          "chart_Element02": 25.5511,
+          "chart_Element03": 10.2289
+        }]
+      }, {
+        "profile_chart_name": "Chart03",
+        "profile_chart_band": 4,
+        "profile_chart_position": 136,
+        "profile_chart_position_horizontal": 1,
+        "profile_chart_composition": [{
+          "chart_Element01": 49.2787,
+          "chart_Element02": 35.7414,
+          "chart_Element03": 14.9799
+        }]
+      }, {
+        "profile_chart_name": "Chart02",
+        "profile_chart_band": 3,
+        "profile_chart_position": 118,
+        "profile_chart_position_horizontal": -3.5,
+        "profile_chart_composition": [{
+          "chart_Element01": 33.9618,
+          "chart_Element02": 46.2959,
+          "chart_Element03": 19.7423
+        }]
+      }, {
+        "profile_chart_name": "Chart01",
+        "profile_chart_band": 2,
+        "profile_chart_position": 102,
+        "profile_chart_position_horizontal": -8,
+        "profile_chart_composition": [{
+          "chart_Element01": 14.0797,
+          "chart_Element02": 58.5199,
+          "chart_Element03": 27.4004
+        }]
+      }]
+    }
+  ]
+}
